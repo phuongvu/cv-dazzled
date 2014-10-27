@@ -126,7 +126,9 @@
 				}, function() {
 					alert("No webcam detected!");
 				});
-			} 
+			}
+
+			startTracking();
 
 			function startTracking() {
 				// start tracking
@@ -145,8 +147,6 @@
   			}
 
   			function drawDazzle(array) {
-
-
   				//Forehead
   				ctx.beginPath();
   				ctx.moveTo(array[19][0], array[19][1]);
@@ -213,12 +213,7 @@
 				ctx.fill();
 				
   			}
-
-			startTracking();
-			
-
 		</script>
-		
 	</body>
 </html>
 
